@@ -1,0 +1,821 @@
+/* MENU FOR CSS, USE CTRL+F TO FIND WHAT YOU NEED */
+/* 
+
+FONTS
+WIREFRAMES
+COLORS
+GOBAL
+    TEXT
+    IMAGE PLACEHOLDER
+    NAV
+    BANNER
+    CLASSIC
+    BG_LEFT
+    BG_CENTER
+    FOOTER
+HOMEPAGE
+GETINVOLVED
+GETHELP
+NEWS
+FAQ
+ABOUT
+CONTACT
+
+*/
+
+
+/* ------------- FONTS ---------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700&subset=latin-ext');
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i');
+/* font-family: 'Roboto Condensed', sans-serif; */
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(250,250,250);
+}
+
+
+
+/* --------- WIREFRAME -----------*/
+
+/* only for constructing wireframes */
+.darkgrey{
+    background-color: rgb(160,160,160);
+}
+.grey{
+    background-color: rgb(190,190,190);
+}
+.lightgrey{
+    background-color: rgb(250,250,250);
+}
+.white{
+    background-color: white;
+}
+/*.nav_logo h1{
+    margin: auto;
+    line-height: 100px;
+    text-align: center;
+}*/
+
+
+/* ---------------- COLORS ---------------- */
+/* 
+   orange f89957
+   dark orange (hover) #f68c69
+   light grey rgb(250,250,250)
+   footer bg #2c3840
+   dark grey header #414141 
+*/
+
+
+/* ---------------------------- GLOBAL -----------------------------*/
+
+/* text */
+
+h1,h2,h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #414141;
+}
+
+p{
+    font-size: 20px;
+}
+.button{
+    background-color: #f89957;
+}
+a{
+    color: black;
+}
+.button:hover{
+    background-color: #f68c69;
+}
+h2{
+    font-size: 40px;
+}
+
+/*image placeholders */
+
+.smallicon_placeholder{
+    height: 30px;
+    width: 30px;
+    margin: 0 10px 0 10px;
+    float: left;
+    position: relative;
+}
+.icon_placeholder{
+    width: 100px;
+    height: 100px;
+    /* centering (setting sides to auto) */
+    margin: 2rem auto;
+}
+
+/*nav*/
+
+.cnav{
+    min-height: 80px;
+    background-color: white;
+    /*container*/
+}
+.nav{
+    width: 98%;
+}
+.nav_logo{
+    margin: 10px 0;
+    height: 80px;
+}
+.nav_logo img{
+    height: 100%;
+}
+.nav_menu{
+    margin-top: 10px;
+}
+/* styling menu*/
+.nav_menu ul{
+    margin-top: 12px;
+    font-size: 20px;
+}
+.nav_menu li{
+    padding: 10px 5px;
+}
+.nav_menu li:first-child{
+    padding: 10px 15px;
+}
+.nav_donate{
+    background-color: #f89957;
+}
+.nav_donate a{
+    color: white;
+}
+.nav_menu li:first-child:hover{
+    background-color: #f68c69;
+}
+.nav_menu li ul li:first-child:hover{
+    background-color: white;
+    border: none;
+}
+.nav_donate a:first-of-type{
+    font-family: 'Oswald', sans-serif;
+}
+/*overwrite foundation border for dropdown*/
+.nav_menu li ul{
+    border: none;
+}
+
+/*banner*/
+
+.banner{
+    height: 400px;
+    background-image: url("../img/gethelp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_inv{
+    background-image: url("../img/getinvolved.jpeg");
+}
+.banner div{
+    /*position: absolute;
+    bottom: 0px;
+    left: 100px;
+    width: 700px;*/
+    height: 200px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.banner h1{
+    line-height: 150px;
+    font-size: 70px;
+    padding: 10px 0;
+    /* centering using equal padding https://css-tricks.com/centering-css-complete-guide/ */
+    /*color: #f89957;*/
+    color: white;
+    font-weight: bold;
+}
+.banner_form{
+    background-image: url(../img/donate_banner.jpeg);
+}
+.banner_form h1, .banner_form p{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+
+/* classic layout*/
+/* title and paragraph in the middle*/
+
+.classic{
+    padding: 30px 0 100px 0;
+    overflow: hidden;
+}
+.classic div{
+    text-align: center;
+}
+.classic h2{
+    line-height: 120px;
+    padding-top: 30px;
+}
+.classic p{
+    width: 80%;
+    margin: auto;
+}
+.no_padding{
+    padding: 0;
+}
+
+/*bg_left*/
+/* section with background image align left */
+
+.bg_left{
+    padding: 30px 0 100px 0;
+    overflow: hidden;
+    background-image: url("https://17404-presscdn-0-71-pagely.netdna-ssl.com/wp-content/themes/uxpin-juggernaut/img/book-landing-bg.jpg");
+    background-size: cover;
+    color: white;
+}
+.bg_left div{
+    text-align: left;
+}
+.bg_left h2{
+    color: white;
+    line-height: 120px;
+    padding-top: 30px;
+}
+.bg_left p{
+    width: 80%;
+    padding-bottom: 30px;
+}
+.bg_left input{
+    width: 500px;
+}
+
+/*bg_center*/
+/* section with background image align center */
+
+.bg_center{
+    padding: 30px 0 100px 0;
+    overflow: hidden;
+    background-image: url("https://17404-presscdn-0-71-pagely.netdna-ssl.com/wp-content/themes/uxpin-juggernaut/img/book-landing-bg.jpg");
+    background-size: cover;
+    color: white;
+}
+.bg_center h2{
+    text-align: center;
+    color: white;
+    line-height: 120px;
+    padding-top: 30px;
+}
+.bg_center p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.bg_center p b{
+    color: #f89957;
+}
+.bg_center input{
+    width: 500px;
+}
+
+/*footer*/
+
+.cfooter{
+    padding: 20px 0 20px 0;
+    background-color: #2c3840;
+    color: white;
+}
+.footer_top{
+    min-height: 100px;
+    overflow: hidden;
+}
+.footer_clogo{
+    position: relative;
+    height: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footer_clogo h1{
+    position: absolute;
+    bottom: -20px;
+    left: 70px;
+}
+.footer_clogo h1{
+    color: white;
+}
+/*top right section (menu and newsletter)*/
+.footer_trsec{
+    overflow: hidden;
+}
+.footer_menu{
+    min-height: 60px;
+}
+.footer_menu li{
+    padding: 0 1rem 0 1rem;
+}
+.cfooter a{
+    color: white;
+}
+.footer_cnewsletter{
+    min-height: 40px;
+    margin-top: 5px;
+}
+.footer_form{
+    height: 40px;
+    overflow: hidden;
+    margin: 0;
+}
+.footer_form p{
+    font-size: 18px;
+    text-align: right;
+    line-height: 40px;
+}
+.footer_bottom{
+    height: 50px;
+    margin-top: 5px;
+}
+.footer_policies{
+    height: 100%;
+    margin-top: 5px;
+}
+.footer_policies ul{
+    margin-top: 10px;
+}
+.footer_social{
+    height: 100%;
+    margin-left: 20px;
+}
+.footer_social img{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* --------------------------- HOMEPAGE ----------------------------*/
+
+/* main image */
+.bigimg{
+    height: 700px;
+    position: relative;
+    background-image: url("../img/baby.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bigimg div{
+    position: absolute;
+    bottom:40px;
+    left: 100px;
+    width: 700px;
+    height: 300px;
+    color: white;
+}
+.bigimg h1{
+    font-size: 65px;
+    line-height: 10px;
+    padding: 30px 0;
+    /* centering using equal padding https://css-tricks.com/centering-css-complete-guide/ */
+    color: #f89957;
+    font-weight: bold;
+}
+.bigimg p{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.bigimg a{
+    font-weight: bold;
+    padding: 20px 40px;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* about */
+
+.about{
+    min-height: 150px;
+    margin-top: 80px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+.about1{
+    overflow: hidden;
+    padding-top: 40px;
+}
+.about p{
+    text-align: center;
+    font-size: 22px;
+    width: 80%;
+    margin: auto;
+}
+.about p b{
+    font-size: 30px;
+    line-height: 100px;
+}
+.about_section{
+    min-height: 500px;
+}
+.about_icon{
+    margin-top: 60px;
+    width: 100%;
+    height: 150px;
+}
+.about_icon img{
+    width: 100%;
+    height: 100%;
+}
+.about_text{
+    text-align: center;
+    padding-bottom: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+/* monthly goals */
+
+.container_goal{
+    padding: 0 0 50px 0;
+}
+.goal{
+    margin-top: 25px;
+    text-align: center;
+}
+/* not first-child kek */
+.goal p:first-of-type{
+    font-size: 25px;
+}
+.goal p b{
+    color: #f89957;
+}
+.goal_bar{
+    height: 25px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+/*to make it stands out*/
+.shadow {
+  -moz-box-shadow:    5px 5px 3px 3px #ccc;
+  -webkit-box-shadow: 5px 5px 3px 3px #ccc;
+  box-shadow:         5px 5px 3px 3px #ccc;
+}
+/* https://css-tricks.com/snippets/css/css-box-shadow/ */
+.goal_progress{
+    height: 100%;
+    width: 80%;
+    background-color: #f89957;
+}
+.goal h2{
+    line-height: 140px;
+    padding-top: 30px;
+}
+.goal a{
+    margin: 3rem 0; 
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+/* testimonials */
+
+.container_testi{
+    padding-bottom: 50px;
+    color: white;
+    background-color: rgba(50,50,50,.5);
+}
+.testi_img{
+    background-image: url("../img/testibg.jpeg");
+    background-size: cover;
+}
+.testi{
+    min-height: 550px;
+    margin-top: 50px;
+    text-align: center;
+}
+.testi h2{
+    line-height: 120px;
+    color: white;
+}
+.quote{
+    font-size: 30px;
+    padding: 100px;
+    height: 300px;
+}
+.quote_by{
+    height: 150px;
+    margin-top: 80px;
+}
+.by{
+    height: 100%;
+    opacity: .8;
+    cursor: pointer;
+}
+.by:nth-of-type(2){
+    opacity: 1;
+}
+.by div img{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 80px;
+    
+}
+.by p{
+    font-size: 16px;
+    padding-top: 30px;
+    text-align: left;
+}
+.by p b{
+    font-size: 18px;
+    line-height: 0px;
+}
+.by:hover{
+    opacity: 1!important;
+    /* !important for overwriting jquery changing opacity*/
+}
+
+/* get involved */
+
+.container_involved{
+    padding-bottom: 100px;
+}
+.involved{
+    margin-top: 100px;
+    text-align: center;
+    min-height: 500px;
+    overflow: hidden;
+}
+.involved div{
+    min-height: 500px;
+}
+.involved h2, .ctestimon h2{
+    line-height: 120px;
+    text-align: center;
+}
+.involved h3{
+    line-height: 100px;
+    margin-top: 55px;
+    font-size: 38px;
+}
+.involved p{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+}
+.involved a{
+    /*position: absolute;
+    bottom: -20px;
+    /* centering absolute element
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;*/
+    padding: 15px 20px;
+    font-size: 22px;
+}
+
+/* ----------------- GETINVOLVED ------------------ */
+.banner{
+    position: relative;
+}
+/* in-page links */
+#donate, #volunteer{
+    background-color: white;
+    position: absolute;
+    bottom: -20px;
+    left: 200px;
+    text-align: left;
+    border: solid 3px white;
+    font-size: 20px;
+    padding: 15px 30px;
+    display: inline;
+    cursor: pointer;
+    opacity: .9;
+}
+#volunteer{
+    left: 350px;
+}
+#donate, #volunteer:hover{
+    opacity: 1;
+}
+#donate{
+    opacity: 1;
+}
+.plcholder{
+    min-height: 800px;
+}
+#vol, #volI{
+    display: none;
+}
+/* inv = involve */
+.invnav_icon{
+    margin-top: 60px;
+    width: 100%;
+    height: 150px;
+}
+.invnav_icon img{
+    width: 100%;
+    height: 100%;
+}
+.invnav_text{
+    text-align: center;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: auto;
+}
+/* involve donate methods */
+.smethods{
+    overflow: hidden;
+    min-height: 400px;
+    padding: 10px;
+}
+.methods h2{
+    text-align: center;
+    line-height: 150px;
+}
+.method{
+    padding: 20px;
+    overflow: hidden;
+}
+.method div{
+    height: 100px;
+}
+.method div img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.methods a{
+    margin: 3rem 0; 
+    padding: 15px 20px;
+    font-size: 20px;
+}
+.center{
+    text-align: center;
+}
+
+/* ---------------- GETHELP -----------------*/
+
+#info_help{
+    text-align: left;
+}
+.help{
+    cursor: pointer;
+    opacity: .6;
+}
+.help:first-of-type{
+    opacity: 1;
+}
+.help:hover{
+    opacity: 1!important;
+    /* !important for overwriting jquery changing opacity*/
+}
+.help h3{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.help_icon{
+    margin-top: 60px;
+    width: 100%;
+    height: 150px;
+}
+.help_icon img{
+    width: 100%;
+    height: 100%;
+}
+.help_info{
+    min-height: 300px;
+    overflow: hidden;
+}
+
+
+/* ------------------ NEWS -------------------*/
+
+.container_news{
+    padding: 50px 0 200px 0;
+}
+.news{
+    height: 550px;
+    /* used transparent border to solve divs not lining the way as planned*/
+    border: inset 50px rgba(0,0,0,0);
+    -moz-background-clip: border;     /* Firefox 3.6 */
+    -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+    background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    /* https://css-tricks.com/transparent-borders-with-background-clip/ */
+}
+.news p b{
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+    line-height: 40px;
+}
+.news p{
+    font-size: 18px;
+}
+.news p strong{
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.news_img img{
+    height: 200px;
+}
+/*-------------------- FAQ ----------------------*/
+.container_faq{
+    padding: 100px 0;
+}
+.faq_q p{
+    width: 40px;
+    height: 40px;
+    background-color: #f89957;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+.faq b{
+    font-size: 20px;
+}
+.qna p{
+    font-size: 18px;
+    padding: 10px 0 70px 0;
+    height: 350px;
+}
+/* -------------------- ABOUT ---------------------- */
+.aboutimgpos{
+    position: relative;
+}
+.aboutimg{
+    position: absolute;
+    left: -20px;
+    bottom: 10px;
+    width: 100px;
+}
+.left{
+    text-align: left;
+}
+.leftt{
+    text-align: left;
+    margin-left: 90px;
+}
+
+/*----------------------- CONTACT ------------------------*/
+
+.contact{
+    padding-bottom: 400px;
+}
+.contact p, .contact h2{
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+/*------------------------ DONATE ------------------------*/
+.form{
+    padding: 50px;
+    min-height: 300px;
+}
+.form h2{
+    line-height: 120px;
+}
+.option{
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    font-weight: 10px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: 120px;
+    background-color: #f89957;
+    margin: 3px;
+    cursor: pointer;
+}
+.option:hover{
+    background-color: #f68c69;
+}
+.active{
+    background-color: #f68c69;
+}
+.form input{
+    display: inline-block;
+    width: 350px;
+    margin: 20px;
+}
+.form a{
+    font-weight: bold;
+    margin: 20px 20px;
+    padding: 15px 30px;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+.form label{
+    width: 300px;
+    margin: 20px;
+    display: inline-block;
+}
+
+
+

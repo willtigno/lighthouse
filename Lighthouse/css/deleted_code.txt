@@ -1,0 +1,151 @@
+.info_section{
+    /* used transparent border to solve divs not lining the way as planned*/
+    min-height: 500px;
+    border: inset 4px rgba(0,0,0,0);
+    -moz-background-clip: border;     /* Firefox 3.6 */
+    -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+    background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    /* https://css-tricks.com/transparent-borders-with-background-clip/ */
+    background-color: white;
+}
+.cinvolved div:first-of-type{
+    border-right: 4px solid rgb(240,240,240);
+}
+.cinvolved div{
+    /* relative for button */
+    position: relative;
+    min-height: 500px;
+    /* used transparent border to solve divs not lining the way as planned*/
+    /*border: inset 20px rgba(0,0,0,0);*/
+    border-right-width: 35px;
+    border-left-width: 35px;
+    -moz-background-clip: border;     /* Firefox 3.6 */
+    -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+    background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    /* https://css-tricks.com/transparent-borders-with-background-clip/ */
+}
+<div class="testimon columns large-6">
+                <p class="testimon_quote">“It's impossible to adequately express the gratitude I feel for support we receive at Lighthouse.”</p>
+                <p class="testimon_by">Melissa, Alex and Rachael</p>
+            </div>
+            <div class="testimon columns large-6">
+                <p class="testimon_quote">“After our dad died, going to Lighthouse and being able to share our story with other kids who had lost someone significant in their lives made us feel less isolated in our grief.”</p>
+                <p class="testimon_by">Teenage Sisters from Mississauga</p>
+            </div>
+            <div class="testimon columns large-6">
+                <p class="testimon_quote">“You can be as mad as you want. You don’t have to hide it. It’s great here because you really don’t have to hold back.”
+</p>
+                <p class="testimon_by">Emily</p>
+            </div>
+            <div class="testimon columns large-6 grey">
+                <p class="testimon_quote">“Through the work of the Lighthouse program, my son has been able to gain an understanding of his feelings and life experience.”</p>
+                <p class="testimon_by">-Frances</p>
+            </div>
+.testi{
+    /* used transparent border to solve divs not lining the way as planned*/
+    height: 300px;
+    border: inset 10px rgba(0,0,0,0);
+    -moz-background-clip: border;     /* Firefox 3.6 */
+    -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+    background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    /* https://css-tricks.com/transparent-borders-with-background-clip/ */
+    position: relative;
+    background-color: white;    
+}
+.testimon_quote{
+    font-size: 26px;
+    margin: 2rem auto;
+    width: 93%;
+    font-style: italic;
+}
+.testimon_by{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    text-align: right;
+    font-size: 18px;
+    color: #f89957;
+    font-weight: bold;
+}
+<!-- brief information about the charity -->
+    <!--<div class="classic row">
+        <div class="large-9 large-centered columns">
+            <div class="large-6 columns">
+                <div class="invnav_icon columns">
+                    <div class="icon_placeholder">
+                        <img src="img/consultations.png" />
+                    </div>
+                </div>
+                <div class="invnav_text">
+                    <h3>Donate</h3>
+                    <p>Help kids who have recently lost a loved one to recover and live a healthy life through the stage of grief.</p>
+                </div>
+                
+            </div>
+            <div class="invnav_volunteer large-6 columns">
+                <div class="invnav_icon columns">
+                    <div class="icon_placeholder">
+                        <img src="img/consultations.png" />
+                    </div>
+                </div>
+                <div class="invnav_text">
+                    <h3>Volunteer</h3>
+                    <p>At lighthouse any and all help is welcome. We have many children coming in on a daily basis who require assistance with many different types of situations. </p>
+                </div>
+            </div>
+        </div>  
+    </div>-->
+    
+div class="classic row">
+        <div class="large-11 large-centered medium-centered small-centered columns">
+            <h2>Breavement Support Group</h2>
+            <p>Every month we ask our children what they would like in the facility as well as we look at what we might be lacking to help these children. Once we have determined the goal of the month's donation we begin to focus all the donations acquired this month towards the one thing these kids want whether it be more books in the library or a new playground.</p>
+        </div>
+    </div>
+    <div class="classic row white">
+        <div class="large-11 large-centered medium-centered small-centered columns">
+            <h2>Grief Training & Resources</h2>
+            <p>Every month we ask our children what they would like in the facility as well as we look at what we might be lacking to help these children. Once we have determined the goal of the month's donation we begin to focus all the donations acquired this month towards the one thing these kids want whether it be more books in the library or a new playground.</p>
+        </div>
+    </div>  
+    <div class="classic row">
+        <div class="large-11 large-centered medium-centered small-centered columns">
+            <h2>Consultations</h2>
+            <p>Every month we ask our children what they would like in the facility as well as we look at what we might be lacking to help these children. Once we have determined the goal of the month's donation we begin to focus all the donations acquired this month towards the one thing these kids want whether it be more books in the library or a new playground.</p>
+        </div>
+    </div>
+    
+
+http://cupcake.nilssonlee.se/
+
+http://stokpic.com/
+
+https://foodiesfeed.com/
+
+http://jaymantri.com/
+
+https://www.pexels.com/
+
+http://nos.twnsnd.co/
+
+https://unsplash.com/
+
+https://picjumbo.com/
+
+http://gratisography.com/
+
+/* ----------- COLORS ---------------- */
+/* orange #f26e26
+   footer #2c3840
+   Light Grey #f7f7f7
+   Highlight Orange fe9e22 or f26e26 (old: f89957)
+   Dark Grey text #414141
+   Hover : #f68c69 (old:#d9954c)
+    #f68c69 #F46F408 
+*/
